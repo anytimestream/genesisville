@@ -7,7 +7,7 @@ ini_set('upload_max_filesize', 100000);
 define('DB_HOST','genesis.cfkrs2cbrrb7.us-east-1.rds.amazonaws.com');
 define('DB_USER','norman');
 define('DB_PASSWORD','adminadmin');
-define('DB_HOST','localhost');
+//define('DB_HOST','localhost');
 //efine('DB_USER','root');
 //define('DB_PASSWORD','mysql');
 define('DB_USERNAME','');
