@@ -1,0 +1,59 @@
+body {
+    font-family: tahoma, Verdana, helvetica, arial, sans-serif;
+    font-size: 14px;
+}
+.summary{
+    width: 420px;
+    margin: 20px auto 0 auto;
+    line-height: 25px;
+}
+.summary span{
+    float: right;
+    font-weight: bold;
+}
+.summary b{
+    float: left;
+    width: 200px;
+    text-align: right;
+}
+.report{
+    border-top: 1px solid #333;
+    width: 420px;
+    margin: 0 auto;
+}
+.report .td{
+    float: left;
+    padding: 3px 8px;
+    border-left: 1px solid #333;
+}
+.report .th{
+    float: left;
+    padding: 3px 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-left: 1px solid #333;
+}
+.report .tr{
+    border: 1px solid #333;
+    border-top: 0;
+    border-left: 0;
+}
+.report .col-1{
+    width: 80px;
+    text-align: center;
+}
+.report .col-2{
+    width: 80px;
+    text-align: center;
+}
+.report .col-3{
+    width: 90px;
+    text-align: right;
+}
+.report .col-4{
+    width: 90px;
+    text-align: right;
+}
+.clear {
+    clear: both;
+}

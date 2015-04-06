@@ -1,0 +1,94 @@
+#plan {
+    color: #666;
+}
+#plan p {
+    padding-left: 10px;
+    color: #c02;
+    font-weight: bold;
+    line-height: 22px;
+}
+#plan .center {
+    text-align: center;
+}
+#plan h4 {
+    text-align: center;
+    line-height: 30px;
+    color: #111;
+}
+#plan span{
+    display: inline-block;
+    line-height: 30px;
+    color: #333;
+}
+#plan .row {
+    margin: 0;
+    clear: both;
+}
+#plan span {
+    float: left;
+    padding: 0 10px;
+}
+#plan .th{
+    text-align: center;
+    color: #c02;
+    border-bottom: 2px solid #aaa;
+}
+.clear {
+    clear: both;
+}
+#plan .col-1{
+    width: 50px;
+    font-weight: bold;
+    text-align: right;
+}
+#plan .col-2{
+    width: 50px;
+    background-color: #ccc;
+    text-align: center;
+}
+#plan .radio {
+    margin: 5px 3px 0 3px;
+}
+#plan .col-3{
+    width: 60px;
+    text-align: center;
+}
+#plan .col-4{
+    width: 60px;
+    background-color: #ccc;
+    text-align: center;
+}
+#plan .col-5{
+    width: 60px;
+    text-align: center;
+}
+#plan .col-6{
+    width: 60px;
+    background-color: #ccc;
+    text-align: center;
+}
+#plan .col-7{
+    width: 70px;
+    text-align: center;
+}
+#plan .col-8{
+    width: 75px;
+    background-color: #ccc;
+    text-align: center;
+}
+#plan .col-9{
+    width: 80px;
+    text-align: center;
+}
+.w100 {
+    width: 55px;
+}
+.w200 {
+    width: 200px;
+}
+.label {
+    text-align: right;
+    line-height: 20px;
+    padding: 1px;
+    display: inline-block;
+}

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #000;
+    color:#fff;
+    font-family: tahoma,Verdana, helvetica, arial, sans-serif;
+    font-size: 11px;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+}
+.h3 {
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: red;
+}
+#content {
+    width: 700px;
+    margin: 0 auto;
+    min-height: 500px;
+}
+.name {
+    background: url(../images/name.png) center no-repeat;
+    height: 110px;
+}
+.clear {
+    clear: both;
+}
+.row{
+    margin-bottom: 7px;
+}
+.plan a{
+    float: left;
+    margin: 5px 0;
+    width: 150px;
+    height: 50px;
+    padding: 40px 10px;
+    background: #00ff00;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 80%, from(#00ff00), to(#007404));
+    background-image: -moz-linear-gradient(0% 30% 90deg, #00ff00, #007404);
+    color: #eff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-decoration: none;
+}
+.plan a:hover {
+    -webkit-box-shadow: 0 0 15px #eee;
+    -moz-box-shadow: 0 0 15px #eee;
+    box-shadow: 0 0 15px #eee;
+}
+.plan a h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.plan a h4{
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+}
+.normosa-ui-form label {
+    width: 100px;
+    font-weight: bold;
+    color: #ddd;
+}
+.bank-details {
+    font-size: 18px;
+}
+

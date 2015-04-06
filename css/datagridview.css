@@ -1,0 +1,194 @@
+.normosa-ui-datatable {
+    display: block;
+    font-size: 10px;
+}
+.normosa-ui-datatable .toolbar{
+    height: 48px;
+    line-height: 48px;
+    border: 1px solid #e0e2e2;
+    background: #e0e2e2 url(../images/toolbar_bg.jpg) repeat-x;
+}
+.normosa-ui-datatable .scrollpane {
+    background: #fff;
+    width: 100%;
+    overflow: auto;
+}
+.normosa-ui-datatable .toolbar form{
+    display: inline-block;
+    padding-left: 10px;
+}
+.normosa-ui-datatable .toolbar form label{
+    color: #333;
+    font-weight: bold;
+    font-size: 11px;
+}
+.normosa-ui-datatable .datasource{
+    display: none;
+}
+.normosa-ui-datatable .toolbar .btn{
+    float: left;
+    color: #333;
+    text-align: center;
+    min-width: 60px;
+    font-size: 10px;
+    font-weight: bold;
+    display: inline-block;
+    border-right: 1px solid #e0e2e2;
+    text-decoration: none;
+    background: transparent;
+}
+.normosa-ui-datatable .toolbar .pagination {
+    display: inline-block;
+    width: 180px;
+}
+.normosa-ui-datatable .toolbar .pagination input {
+    display: inline-block;
+    float: left;
+    max-width: 50px;
+    line-height: 20px;
+    margin-top: 13px;
+}
+.normosa-ui-datatable .toolbar .pagination .btn {
+    border: 0;
+}
+.normosa-ui-datatable .toolbar .fullscreen{
+    background: url(../images/fullscreen.png) no-repeat center;
+    width: 48px;
+    display: inline-block;
+    height: 48px;
+    border-left: 1px solid #e0e2e2;
+    float: right;
+}
+.normosa-ui-datatable .toolbar .fullscreen:hover{
+    cursor: pointer;
+}
+.normosa-ui-datatable .toolbar .btn:hover{
+    background: #e0e2e2;
+    cursor: pointer;
+}
+.normosa-ui-datatable .th{
+    line-height: 30px;
+    height: 30px;
+    background: #999 url(../images/th_bg.jpg);
+    border-right: 1px solid #e0e2e2;
+    border-bottom: 1px solid #e0e2e2;
+    text-align: center;
+    width:100%;
+    clear: both;
+}
+.normosa-ui-datatable .th_fix{
+    height: 30px;
+    display: none;
+}
+.selected{
+    background: #507BC9;
+    color: #fff;
+}
+.notselected {
+    color: #333;
+    background: #fff;
+}
+.normosa-ui-datatable .tr{
+    line-height: 25px;
+    height: 25px;
+    border: 1px solid #e0e2e2;
+    border-left: 0;
+    border-top: 0;
+    clear: both;
+}
+.normosa-ui-datatable .expand .expand-tr{
+    line-height: 25px;
+    height: 25px;
+    border: 1px solid #e0e2e2;
+    border-left: 0;
+    border-top: 0;
+    clear: both;
+}
+.normosa-ui-datatable .tr .td{
+    line-height: 25px;
+    height: 25px;
+    border-left: 1px solid #e0e2e2;
+    float: left;
+    font-size: 11px;
+    padding: 0 4px;
+    overflow: hidden;
+}
+.normosa-ui-datatable .expand{
+    border: 1px solid #e0e2e2;
+    border-left: 0;
+    border-right: 0;
+    background: #dfd;
+    display: none;
+}
+.normosa-ui-datatable .expand .expand-tr .expand-td{
+    line-height: 25px;
+    height: 25px;
+    border-left: 1px solid #e0e2e2;
+    float: left;
+    font-size: 11px;
+    padding: 0 4px;
+    overflow: hidden;
+}
+.normosa-ui-datatable .expand .expand-tr .expand-th{
+    line-height: 30px;
+    height: 30px;
+    color: #333;
+    font-size: 11px;
+    font-weight: bold;
+    border-left: 1px solid #e0e2e2;
+    float: left;
+    padding: 0 4px;
+    overflow: hidden;
+}
+.normosa-ui-datatable .info{
+    display: none;
+}
+.normosa-ui-datatable .tr .td input{
+    width: inherit;
+    height: inherit;
+    line-height: inherit;
+    border: 0;
+    color: inherit;
+    margin: 0 -4px;
+    padding: 0 4px;
+    font-size: inherit;
+}
+.normosa-ui-datatable .tr .td select{
+    width: inherit;
+    height: inherit;
+    line-height: inherit;
+    border: 0;
+    color: inherit;
+    margin: 0 -4px;
+    font-size: inherit;
+}
+.normosa-ui-datatable .th .td{
+    line-height: 30px;
+    height: 30px;
+    color: #333;
+    font-size: 11px;
+    font-weight: bold;
+    border-left: 1px solid #999;
+    border-left: 1px solid #e0e2e2;
+    float: left;
+    padding: 0 4px;
+}
+.select {
+    width: 52px;
+    background: #999 url(../images/th_bg.jpg);
+}
+.select:hover{
+    background: #eee;
+}
+.w100 {
+    width: 100px;
+    overflow: hidden;
+}
+.w200 {
+    width: 200px;
+    overflow: hidden;
+}
+.w300 {
+    width: 300px;
+    overflow: hidden;
+}

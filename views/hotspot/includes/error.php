@@ -1,0 +1,1 @@
+<p style="font-size: 12px;">Sorry, An error has occurred. #error: <?php echo $_GET['error']?></p>

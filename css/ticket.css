@@ -1,0 +1,56 @@
+body {
+    font-family: tahoma, Verdana, helvetica, arial, sans-serif;
+    font-size: 12px;
+}
+.ticket {
+    width: 250px;
+    -border: 1px solid #333;
+}
+
+.ticket .col-1 {
+    width: 100px;
+    text-align: right;
+    float: left;
+    padding-right: 5px;
+}
+.ticket .col-2 {
+    -font-weight: bold;
+}
+.name {
+    text-align: center;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: bold;
+}
+.address{
+    font-size: 11px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 17px;
+}
+.h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    line-height: 30px;
+}
+.price {
+    font-size: 14px;
+    -font-weight: bold;
+    text-align: center;
+    display: block;
+}
+b {
+    font-size: 16px;
+    line-height: 22px;
+}
+.lh-22 {
+    line-height: 22px;
+}
+.lh-16 {
+    line-height: 18px;
+}
+br {
+    clear: both;
+}

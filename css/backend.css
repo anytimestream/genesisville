@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color:#434141;
+    font-family: segoe ui,Verdana,tahoma, helvetica, arial, sans-serif;
+    font-size: 11px;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-size: .86em;
+}
+#header {
+    height: 80px;
+    background: #222;
+}
+#header .name{
+    background: url(../images/name.png) no-repeat center;
+    width: 300px;
+    height: 80px;
+    float: left;
+    margin-left: 20px;
+}
+#header .username {
+    color: white;
+    background: #f1f2f2;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 11px;
+    border-radius: 2px;
+    padding: 0 8px;
+    line-height: 23px;
+    top: 10px;
+    right: 10px;
+    position: absolute;
+    height: 23px;
+    overflow: hidden;
+    cursor: pointer;
+}
+#header .username:hover {
+    height: auto;
+}
+#header .username a {
+    color: white;
+    border-top: 1px solid #999;
+    color: black;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 0 8px;
+    line-height: 23px;
+}
+#header ul {
+    margin-top : 40px;
+    height: 40px;
+    display: inline-block;
+}
+#header ul li {
+    float: left;
+    overflow: hidden;
+    list-style: none;
+    list-style-image: none;
+    list-style-type: none;
+    margin: 0 10px;
+}
+#header ul li a{
+    display: inline-block;
+    padding: 0 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #ddd;
+    border-radius: 8px 8px 0 0;
+}
+#header ul li a.active{
+    background: #333;
+}
+#header ul li a.default{
+    
+}
+#content {
+    min-height: 500px;
+    background: white;
+}
+#content ul.tab {
+    height: 40px;
+    display: block;
+    width: 100%;
+    background: #FBB700;
+}
+#content ul.tab li{
+    float: left;
+    width: auto;
+    list-style: none;
+    list-style-image: none;
+    list-style-type: none;
+}
+#content ul.tab li a{
+    display: inline-block;
+    padding: 0 25px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+}
+#content ul.tab li a.active {
+    background: #333;
+    color: #fff;
+    border-radius: 8px;
+}
+#content ul.tab li a:hover {
+    text-decoration: underline;
+}
+#content ul.tab li ul {
+    background: #FBB700;
+    height: auto;
+    display: block;
+    margin: 0 5px;
+}
+#content ul.tab li ul a{
+    border: 0;
+    margin: 0;
+    display: block;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 20px;
+    color: black;
+    font-weight: bold;
+    width: 100px;
+}
+#content ul.tab li ul li a:hover{
+    background: #333;
+    color: #fff;
+    border: 0;
+}
+#content ul.tab li ul li a.active {
+    border-radius: 0;
+}
+span.document-title {
+    display: none;
+}
+.clear{
+    clear: both;
+}
+#footer {
+    background: #fff url(img/header.jpg);
+    height: 40px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+}
+#footer a{
+    text-decoration: none;
+    color: #fff;
+}
+.doc-header {
+    height: 40px;
+    margin-top: 10px;
+}
+.doc-header h3{
+    background: #e0e2e2 url(dgv_img/toolbar_bg.jpg) repeat-x;
+    background: url(img/nav.jpg) repeat-x;
+    color: #333;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 0 15px;
+    display: inline-block;
+    border-bottom: 0;
+}
+#form_stationreport {
+    background: #00ff00;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 80%, from(#00ff00), to(#007404));
+    background-image: -moz-linear-gradient(0% 30% 90deg, #00ff00, #007404);
+    color: #eff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 380px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 50px;
+}
+#form_stationreport label{
+    color: #fff;
+}
